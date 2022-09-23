@@ -9,15 +9,16 @@ import './App.css';
 
 function App() {
 
-  const [addBug, setAddBug] = useState(true)
+  const [addBug, setAddBug] = useState(false)
 
   return (
     <div className='App'>
       <h1>BUGGER</h1>
       <div className="maincontainer">{addBug ? <AddBug/> : <CurrentBug/>}</div>
       <div>
-        <button className="btn btn-primary"> Current Bugs </button>
-        <button className="btn btn-outline-light"> Add Bugs </button>
+        <button name="curappbtn" className=" curappbtn appbtn btn btn-outline-light"> Current Bugs </button>
+        
+        <button name="addappbtn" className=" addappbtn appbtn btn btn-outline-warning"> Add Bugs </button>
       </div>
 
     </div>

@@ -12,10 +12,10 @@ function AddBug() {
     <div className='addbugs'>
     <form>
         <label> 
-            Bug Description <input className="form-control"type='text'/>
+            Bug Description <input placeholder="Example: POST Route not working" className="form-control"type='text'/>
         </label>
         <label>
-            Assign Bug Fix
+            Assign
             
             <select className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Dev' id='Dev'> 
                 <option value="dev1"> dev1 </option>
@@ -27,7 +27,7 @@ function AddBug() {
             
         </label>
         <label>
-            Priority Level
+            Priority
             <select className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Prio' id='Prio'> 
                 <option value="Low"> Low </option>
                 <option value="Medium"> Medium </option>
@@ -36,7 +36,7 @@ function AddBug() {
         
             </select>
         </label>
-        <button className=" btn btn-success "type="submit">Add Bug</button>
+        <button className=" btn btn-primary "type="submit">Add Bug</button>
 
     </form>
     </div>

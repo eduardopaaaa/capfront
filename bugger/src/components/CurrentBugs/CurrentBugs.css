@@ -1,0 +1,78 @@
+.currentbugs { 
+    
+    max-height: 360px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 30px;
+
+}
+
+
+.currentbugs p{
+    text-align: left;
+    font-size: larger;
+    font-weight: 500;
+    margin: 10px 0px;
+
+}
+
+.currentbugs p span {
+    color: gold;
+    font-size: larger;
+    display: inline-block;
+    margin-left: 15px;
+}
+ 
+.currentbugs .dtext {
+    color: lightcyan;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.currentbugs .closeticket {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0px;
+    margin-top: 0;
+}
+
+.currentbugs .ticket1 {
+    position: relative;
+    
+}
+
+.currentbugs hr {
+    color: white;
+    border: lightgoldenrodyellow;
+    border-style:outset;
+    border-radius: 10px;
+    background: white;
+    height: 5px;
+    margin-top: 20px;
+}
+
+.currentbugs::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.currentbugs::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: transparent;
+}
+
+.currentbugs::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgb(254, 193, 39);
+  
+}
