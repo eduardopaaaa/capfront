@@ -19,7 +19,7 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
 6.- Friday update - finishing frontend skeleton and setting up routes
     • finished frontend HTML hardcode. Will be adding additional components tomorrow
 
-7.- Saturday - Update Add additional components and achieve full CRUD
+7.- Saturday - Update Add additional components and achieve full CRUD and start implementing the app into our process
 
 8.- Sunday - update add additional styling, along with animations and transitions
 
