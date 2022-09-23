@@ -1,18 +1,25 @@
-import {React, useState} from "react";
+import { React, useState, useEffect } from "react";
+import axios from "axios";
+
+import AddBug from './components/AddBugs/AddBug';
+import CurrentBug from './components/CurrentBugs/CurrentBug';
+
 import './App.css';
+
 
 function App() {
 
-    let [showBug, setShowBug] = useState(false)
-    let [showTask, setShowTasks] = useState(true)
+  const [addBug, setAddBug] = useState(true)
 
   return (
-    <div className="App">
-      <header className="App-header">
-        hello there, general kenobi 
+    <div className='App'>
+      <h1>BUGGER</h1>
+      <div className="maincontainer">{addBug ? <AddBug/> : <CurrentBug/>}</div>
+      <div>
+        <button className="btn btn-primary"> Current Bugs </button>
+        <button className="btn btn-outline-light"> Add Bugs </button>
+      </div>
 
-        sfgdsdf
-      </header>
     </div>
   );
 }
