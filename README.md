@@ -16,7 +16,7 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
 
 5.- Animations and transitions might be implemented if the timeline allows, THREE.JS is looking like a good option but will require some more research in order to integrate. 
 
-6.- Friday update
+6.- Friday update - finishing frontend skeleton and setting up routes
 
 7.- Saturday Update
 
