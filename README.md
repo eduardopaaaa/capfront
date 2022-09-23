@@ -17,17 +17,18 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
 5.- Animations and transitions might be implemented if the timeline allows, THREE.JS is looking like a good option but will require some more research in order to integrate. 
 
 6.- Friday update - finishing frontend skeleton and setting up routes
+    • finished frontend HTML hardcode. Will be adding additional components tomorrow
 
-7.- Saturday Update
+7.- Saturday - Update Add additional components and achieve full CRUD
 
-8.- Sunday update
+8.- Sunday - update add additional styling, along with animations and transitions
 
-9.- Monday update
+9.- Monday - update check to see if we can implement JWT auth or O Auth to create users
 
-10.- Tuesday update
+10.- Tuesday update -
 
-11.- Wednesday Update
+11.- Wednesday Update - Easter egg Java Game addition?
 
-12.- Thursday update
+12.- Thursday update - portfolio check and merge
 
-13.- Friday Update
+13.- Friday Update - TBD
