@@ -1,23 +1,31 @@
 import { React, useState, useEffect } from "react";
 import axios from "axios";
-
+import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { keyboard } from '@testing-library/user-event/dist/keyboard';
 import "./AddBugs.css"
 
 
-function AddBug() {
+const AddBug = ({
+    handlesetDescription,
+    handlesetPriority,
+	handleNew,
+	handleAssigned
+}) => {
 
-  const [addBug, setAddBug] = useState(true)
+    const [addBug, setAddBug] = useState(true);
+
 
   return (
+
     <div className='addbugs'>
-    <form>
+    <form onSubmit={handleNew}>
         <label> 
-            Bug Description <input placeholder="Example: POST Route not working" className="form-control"type='text'/>
+            Bug Description <input onChange={handlesetDescription} placeholder="Example: POST Route not working" className="form-control"type='text'/>
         </label>
         <label>
             Assign
             
-            <select className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Dev' id='Dev'> 
+            <select onChange={handleAssigned} className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Dev' id='Dev'> 
                 <option value="dev1"> dev1 </option>
                 <option value="dev2"> dev2 </option>
                 <option value="dev3"> dev3 </option>
@@ -28,7 +36,7 @@ function AddBug() {
         </label>
         <label>
             Priority
-            <select className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Prio' id='Prio'> 
+            <select onChange={handlesetPriority} className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Prio' id='Prio'> 
                 <option value="Low"> Low </option>
                 <option value="Medium"> Medium </option>
                 <option value="High"> High </option>
@@ -36,7 +44,7 @@ function AddBug() {
         
             </select>
         </label>
-        <button className=" btn btn-primary "type="submit">Add Bug</button>
+        <button className=" btn btn-primary "type="submit">CREATE BUG REPORT</button>
 
     </form>
     </div>

@@ -68,6 +68,50 @@ ul li {
   margin-right: auto;
 }
 
+.postImage li {
+	margin: 20px;
+}
+
+.header {
+	z-index: 400;
+	position: fixed;
+}
+
+.updateForm {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.postImage img {
+	width: 100%;
+	height: 90%;
+	padding: 10px;
+	justify-content: center;
+}
+
+.postImage {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	flex-direction: column;
+	margin: 100px;
+	align-items: center;
+	margin-left: 20%;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px 9px rgba(56, 56, 58, 0.2);
+}
+
+.postImage button {
+	height: 40px;
+}
+.hide {
+	display: none;
+}
+
 .main {
   display: flex;
   /* height: 100vh; */
@@ -78,13 +122,49 @@ ul li {
 }
 
 .nav-masthead .nav-link {
-  color: black;
+  color: white;
   border-bottom: .25rem solid transparent;
 }
 
+
+.editDelete {
+	width: 100px;
+	margin-top: 1%;
+
+	justify-content: space-around;
+}
+.editDelete p {
+	padding: 15px;
+	cursor: pointer;
+	padding-top: 28px !important;
+}
+
+.interactions {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 100px;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.caption {
+	font-size: 30px;
+	width: 100%;
+	border-width: 5px;
+	border-style: double;
+}
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.622);
+}
+
+.EditButtonClicked {
+	position: absolute;
+	width: 80%;
+	margin-top: -70%;
+	margin-left: -50%;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -133,6 +213,10 @@ ul li {
 }
 
 h1 {
+  size: 80px;
+  color: rgb(255, 255, 255)
+}
+h2 {
   size: 80px;
   color: rgb(255, 255, 255)
 }
