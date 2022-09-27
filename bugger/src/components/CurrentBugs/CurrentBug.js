@@ -7,40 +7,44 @@ import "./CurrentBugs.css"
 
 
 export default function CurrentBug({
-  bugs,
+  data,
 	handleDelete,
+  
  
 }) {
 
   
-  
-  const [addBug, setAddBug] = useState(true)
+  // const [addBug, setAddBug] = useState(false);
 
-  
+    
+
+    
     return (
-
-      <div className='currentbugs'>
+      <div>
         
-        <div className="ticket1"> 
-  
-          <p className="closeticket btn btn-outline-danger" onClick={(event) => {
-                handleDelete(bugs._id);
-              }}> Close Ticket </p>
-  
-              
-  
-          <p>Assigned: <span> {bugs.Assigned} </span> </p>
-          <p>Priority: <span> {bugs.Priority} </span> </p>
-          <p>Description: {bugs.Description} </p>
+      <div key={data._id} className='currentbugs' >
+      {data.map((item) => {
+        return (
+          
+        <div className="ticket1" >
+          
+          <p id={data._id}> Assigned: <span> {item.Assigned} </span> </p>
+          <p id={data._id}> Priority: <span> {item.Priority} </span> </p>
+          <p id={data._id}> Description: {item.Description} </p>
           <hr/>
-  
-        </div>
-  
-        
+
+          <button className="closeticket btn btn-outline-danger" onClick={() => {handleDelete(item)}}> Close Ticket </button>
           
         </div>
+        
+        )
+        })}
+          
+        </div>
+        
+        </div>
     );
-
+  
     
   
 }

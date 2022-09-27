@@ -26,6 +26,7 @@ const AddBug = ({
             Assign
             
             <select onChange={handleAssigned} className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Dev' id='Dev'> 
+                <option value="">  </option>
                 <option value="dev1"> dev1 </option>
                 <option value="dev2"> dev2 </option>
                 <option value="dev3"> dev3 </option>
@@ -37,6 +38,7 @@ const AddBug = ({
         <label>
             Priority
             <select onChange={handlesetPriority} className=" btn btn-outline-light dropdown-toggle" data-toggle="dropdown" name='Prio' id='Prio'> 
+                <option value="">  </option>
                 <option value="Low"> Low </option>
                 <option value="Medium"> Medium </option>
                 <option value="High"> High </option>

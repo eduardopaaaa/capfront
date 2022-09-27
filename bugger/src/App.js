@@ -15,6 +15,7 @@ function App() {
 	const [priority, setPriority] = useState("");
 	const [description, setDescription] = useState("");
     const [data, setData] = useState([]);
+    
     const [toggleNew, setToggleNew] = useState(false);
     // const [toggleEdit, setToggleEdit] = useState(false);
     
@@ -34,6 +35,7 @@ function App() {
     const handlesetDescription = (event) => {
         setDescription(event.target.value);
     };
+
 
   const handleNew = (event) => {
     event.preventDefault();
@@ -96,10 +98,10 @@ function App() {
 		// 	});
     // };
 
-    const handleDelete = (post) => {
+    const handleDelete = (dataDelete) => {
         axios
 			.delete(
-				`https://lit-caverns-62565.herokuapp.com//delete/${post._id}`
+				`https://lit-caverns-62565.herokuapp.com/delete/${dataDelete._id}`
 			)
 			.then(() => {
 				axios
@@ -146,6 +148,8 @@ function App() {
       : 
       <CurrentBug
       handleDelete={handleDelete}
+      data={data}
+
       // bugs={bugs}
       />}
       </div>
