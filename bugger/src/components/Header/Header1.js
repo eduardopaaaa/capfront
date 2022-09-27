@@ -1,5 +1,5 @@
 import React from "react";
-import AddBug from '/Users/hacker/capfront/bugger/src/components/AddBugs/AddBug.js';
+import AddBug from './components/AddBugs/AddBug';
 import "./Header.css";
 
 
