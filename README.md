@@ -23,9 +23,13 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
 
 8.- Sunday - update add additional styling, along with animations and transitions
 
-9.- Monday - update check to see if we can implement JWT auth or O Auth to create users
+9.- Monday - FULL CRUD HAS BEEN ACHIEVED -- Deploy on Heroku worked semi-seamlessly. Had to import some components differently since I am using folders for each. 
 
-10.- Tuesday update -
+    • MongoDB is working flawlessly
+    • All routes work
+    • I will now work on additional functionality with react...including MUI material for a search bar to search all current bugs by fuzzy search...ish. 
+
+10.- Tuesday update - Search bar implementation and react animaiton?
 
 11.- Wednesday Update - Easter egg Java Game addition?
 
