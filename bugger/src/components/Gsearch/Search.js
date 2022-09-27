@@ -5,7 +5,7 @@ const Search = (props) => {
 				<div>
 
 					<h2 className='nav nav-masthead justify-content-center float-md-start'>
-						FINSTAGRAM
+						BUGGER
 					</h2>
 
 					<nav className='nav nav-masthead float-md-end'>
