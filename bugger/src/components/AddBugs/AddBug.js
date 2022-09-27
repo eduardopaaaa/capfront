@@ -3,6 +3,7 @@ import axios from "axios";
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import { keyboard } from '@testing-library/user-event/dist/keyboard';
 import "./AddBugs.css"
+import { ListItemSecondaryAction } from "@mui/material";
 
 
 const AddBug = ({
@@ -12,8 +13,8 @@ const AddBug = ({
 	handleAssigned
 }) => {
 
-    const [addBug, setAddBug] = useState(true);
 
+      
 
   return (
 
