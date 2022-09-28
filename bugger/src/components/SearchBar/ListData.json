@@ -27,12 +27,6 @@
     "Description": "add easter egg to app"
     
 }, {
-    "id": 6,
-    "Assigned": "dev3",
-    "Priority": "High",
-    "Description": "Finish Wordpress website"
-     
-}, {
     "id": 7,
     "Assigned": "dev1",
     "Priority": "High",

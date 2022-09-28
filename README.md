@@ -30,6 +30,7 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
     • I will now work on additional functionality with react...including MUI material for a search bar to search all current bugs by fuzzy search...ish. 
 
 10.- Tuesday update - Search bar implementation and react animaiton?
+    •adding a new create route for the search bar
 
 11.- Wednesday Update - Easter egg Java Game addition?
 
