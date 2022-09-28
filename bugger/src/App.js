@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import AddBug from './components/AddBugs/AddBug';
 import CurrentBug from './components/CurrentBugs/CurrentBug';
-import SearchBar from "./components/SearchBar/SBar";
+// import SearchBar from "./components/SearchBar/SBar";
 import './App.css';
 
 
@@ -162,7 +162,7 @@ function App() {
       </div>
 
       <Footer/>
-        <SearchBar/>
+        
     </div>
   );
 }
