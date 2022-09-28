@@ -79,3 +79,17 @@ ul li {
   flex-direction: column;
   row-gap: 20px;
 }
+
+video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  object-fit: cover;
+  z-index: -5;
+}
