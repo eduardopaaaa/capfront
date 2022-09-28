@@ -20,11 +20,11 @@ function App() {
     // const [toggleEdit, setToggleEdit] = useState(false);
     
 
-    const bugToggleNew = () => {
-        {
-            toggleNew ? setToggleNew(false) : setToggleNew(true);
-        }
-    };
+    // const bugToggleNew = () => {
+    //     {
+    //         toggleNew ? setToggleNew(false) : setToggleNew(true);
+    //     }
+    // };
 
     const handleAssigned = (event) => {
         setAssigned(event.target.value);
@@ -133,7 +133,7 @@ function App() {
       handleNew={handleNew}
       handlesetPriority={handlesetPriority}
       handlesetDescription={handlesetDescription}
-      bugToggleNew={bugToggleNew}
+      // bugToggleNew={bugToggleNew}
       toggleNew={toggleNew}
       />
 
