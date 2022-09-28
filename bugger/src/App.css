@@ -126,7 +126,7 @@ ul li {
   max-width: 42em;
   margin-left: auto;
   margin-right: auto;
-  border-color: #7c7c7c;
+  border-color: transparent;
   border-width: 1px;
   border-style: double;
   border-bottom: transparent;
@@ -280,5 +280,4 @@ button {
 
 .search {
   width: 100%;
-  ;
 }

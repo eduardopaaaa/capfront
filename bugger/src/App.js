@@ -6,6 +6,7 @@ import AddBug from './components/AddBugs/AddBug';
 import CurrentBug from './components/CurrentBugs/CurrentBug';
 // import SearchBar from "./components/SearchBar/SBar";
 import './App.css';
+import SearchBar from "./components/SearchBar/SBar";
 
 
 function App() {
@@ -160,7 +161,7 @@ function App() {
         
         <button name="addappbtn" onClick={() => toggleDisplayA()} className=" addappbtn appbtn btn btn-outline-warning"> Report Bugs </button>
       </div>
-
+      <SearchBar/>
       <Footer/>
         
     </div>

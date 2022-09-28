@@ -1,5 +1,5 @@
-import { React, useState, useEffect } from "react";
-import axios from "axios";
+import { React } from "react";
+
 import "./CurrentBugs.css"
 
 // import Edit from "/Users/hacker/capfront/bugger/src/components/Edits/Edit.js";
