@@ -16,7 +16,7 @@ function App() {
 	const [description, setDescription] = useState("");
     const [data, setData] = useState([]);
     
-    const [toggleNew, setToggleNew] = useState(false);
+    // const [toggleNew, setToggleNew] = useState(false);
     // const [toggleEdit, setToggleEdit] = useState(false);
     
 
@@ -134,7 +134,7 @@ function App() {
       handlesetPriority={handlesetPriority}
       handlesetDescription={handlesetDescription}
       // bugToggleNew={bugToggleNew}
-      toggleNew={toggleNew}
+      // toggleNew={toggleNew}
       />
 
 
