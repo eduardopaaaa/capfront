@@ -7,6 +7,7 @@ import CurrentBug from './components/CurrentBugs/CurrentBug';
 // import SearchBar from "./components/SearchBar/SBar";
 import './App.css';
 import SearchBar from "./components/SearchBar/SBar";
+import Preloader from "./components/PreLoader/PreLoader";
 
 
 
@@ -130,7 +131,7 @@ function App() {
 
   return (
     <div className='App'>
-
+      <Preloader/>
       <Header
       handleAssigned={handleAssigned}
       handleNew={handleNew}
