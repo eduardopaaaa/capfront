@@ -43,7 +43,7 @@ const AddBug = ({
                 <option value="Low"> Low </option>
                 <option value="Medium"> Medium </option>
                 <option value="High"> High </option>
-                <option value="YESTERDAY"> ASAP </option>
+                <option value="ASAP"> ASAP </option>
         
             </select>
         </label>
