@@ -75,7 +75,7 @@ function App() {
 
 
     useEffect(() => {
-        axios.get("https://lit-caverns-62565.herokuapp.com/").then((response) => {
+        axios.get("https://lit-caverns-62565.herokuapp.com//").then((response) => {
             setData(response.data);
         });
     }, []);
