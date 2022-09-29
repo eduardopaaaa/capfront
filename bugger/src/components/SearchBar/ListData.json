@@ -51,6 +51,63 @@
     "Assigned": "dev2",
     "Priority": "Medium",
     "Description": "BUGGER APP is not displaying corretly on Mobile"
+} , {
+    "id": 12,
+    "Assigned": "dev1",
+    "Priority": "High",
+    "Description": "Full Crud has been achieved"
+}, {
+    "id": 13,
+    "Assigned": "dev2",
+    "Priority": "Medium",
+    "Description": "heroku deploy works?"
+    
+}, {
+    "id": 15,
+    "Assigned": "dev1",
+    "Priority": "High",
+    "Description": "confirmed, heroku deploy works with full crud"
+}, {
+    "id": 16,
+    "Assigned": "dev3",
+    "Priority": "Low",
+    "Description": "test to see if heroku and create work"
+}, {
+    "id": 17,
+    "Assigned": "dev1",
+    "Priority": "Medium",
+    "Description": "ALL ROUTES WORK AS INTENDED AFTER SEARCH BAR"
+    
+}, {
+    "id": 18,
+    "Assigned": "dev1",
+    "Priority": "High",
+    "Description": "Fix import paths to enable heroku deploy"
+}, {
+    "id": 19,
+    "Assigned": "dev1",
+    "Priority": "High",
+    "Description": "HEROKU IS NOT DEPLOYING: Fatal error, JS ran out of memory. Attempting fix now"
+}, {
+    "id": 20,
+    "Assigned": "dev1",
+    "Priority": "SEVERE",
+    "Description": "testing h10 error fix"
+}, {
+    "id": 21,
+    "Assigned": "dev2",
+    "Priority": "Low",
+    "Description": "testing JSON double push"
+}, {
+    "id": 22,
+    "Assigned": "dev2",
+    "Priority": "Medium",
+    "Description": "JSON History push does not work, heroku does not like it when we dynamically write files"
+} , {
+    "id": 23,
+    "Assigned": "dev1",
+    "Priority": "low",
+    "Description": "All Errors Fixed, Heroku works, FULL CRUD Works. Time for OAuth"
 }
 
 ] 

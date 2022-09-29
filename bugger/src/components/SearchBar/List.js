@@ -1,19 +1,23 @@
-import { React } from 'react'
+import { React, useState } from 'react'
 import {Button} from 'reactstrap'
 import data from "./ListData.json"
 import axios from 'axios'
 
 function List(props) {
 
+    const [assigned] = useState("");
+	const [priority] = useState("");
+	const [description] = useState("");
+
     const handleNew = (item) => {
         axios
-            .post("https://lit-caverns-62565.herokuapp.com/create", item)
-            .then(() => {
-                axios
-                    .get("https://lit-caverns-62565.herokuapp.com/")
-                    .then((response) => {
-                    });
-            });
+            .post("https://lit-caverns-62565.herokuapp.com/create", item, {
+                assigned,
+                priority,
+                description
+            })
+            
+            
     };
     // const handleSubmit = (event) => {
     //     event.preventDefault()
@@ -61,7 +65,7 @@ function List(props) {
                     <br />
                     Description: {item.Description}
                     <br />
-                </li><form onSubmit={() => {handleNew(item)}}>
+                </li><form onSubmit={() => {handleNew()}}>
                     <Button color="primary" input type='submit'>STASH</Button>
                     </form></>
                 

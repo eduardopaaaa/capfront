@@ -9,6 +9,7 @@ import './App.css';
 import SearchBar from "./components/SearchBar/SBar";
 
 
+
 function App() {
 
   const [addBug, setAddBug] = useState(true)
@@ -46,6 +47,7 @@ function App() {
             Priority: priority,
             Description: description,
         })
+        
         .then(() => {
             axios
                 .get("https://lit-caverns-62565.herokuapp.com/")
