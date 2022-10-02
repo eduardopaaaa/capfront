@@ -31,9 +31,34 @@ CAPSTONE PROJECT - Bug Logger App - Bugger
 
 10.- Tuesday update - Search bar implementation and react animaiton?
     •adding a new create route for the search bar
+    • heroku did not take the search bar functionality, there are some compiling issues
+    • compiling issues were resolved by correcting all of the warnings that appeared on application launch
+    • app responsiveness was improved after eliminating all warnings
 
 11.- Wednesday Update - Easter egg Java Game addition?
+    • easter egg java game addition was scrapped due to heroku not being able to render the application...H10 error is currently being worked on
 
 12.- Thursday update - portfolio check and merge
+    • heroku is not working with the current react configuration
+    • H10 error seems to be coming from the frontend of the application.
+    • H10 error has been semi resolved by taking out unused packages and components. Application now launches and compiles without errors but crashes upon page reload...H10 error persists
 
-13.- Friday Update - TBD
+13.- Friday Update - Heroku H10 error has been resolved. 
+    • H10 error was fixed by downgrading the heroku-22 to heroku-20 and using the react buildpack that was deprecated. 
+    • all routes work, all apps work and are hosted. 
+    • all links to portfolio work and portfolio has been corrected/modified to include all hosted projects and links to relevant pages
+    •portfolio has been updated to reflect new animations, new image additions, mobile display fixes, image rendering fixes, video display fixes, grammar corrections. 
+    • portfolio has been updated to display on all devices with 0 erorrs
+    • in the event that the page 1 intro video cannot be rendered...an image will be in place as backup
+    • safari browser has some issues displaying some buttons, will work on the webkit to see if we can fix the CSS
+
+14.- Saturday Update - BREAK
+
+16.- Sunday Update - Finishing touches and wrap up
+
+    • Oauth with github proved to be difficult to implement on the application since we have already deployed, we will need more time to adequately implement it without breaking anything
+    • fixing minor display issues and taking out all commented lines for readability 
+    • website is fully hosted and using the domain from bluehost...we are done
+
+
+
