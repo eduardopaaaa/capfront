@@ -116,7 +116,7 @@ function App() {
 			});
     };
 
-    let toggleDisplayC = () => {
+    let toggleDisplayC = () => {    
       if (addBug === true ) {
         setAddBug(!addBug);
       }
